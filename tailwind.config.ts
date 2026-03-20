@@ -61,9 +61,9 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans:    ["'Inter'", "sans-serif"],
-        display: ["'Space Grotesk'", "sans-serif"],
-        mono:    ["'JetBrains Mono'", "monospace"],
+        sans:    ["ui-sans-serif", "system-ui", "sans-serif"],
+        display: ["ui-sans-serif", "system-ui", "sans-serif"],
+        mono:    ["ui-monospace", "monospace"],
       },
       animation: {
         "fade-in-up":  "fadeInUp 0.6s ease forwards",
